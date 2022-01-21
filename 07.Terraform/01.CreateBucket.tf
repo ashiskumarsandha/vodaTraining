@@ -7,9 +7,9 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "createbucketblock" {
-    bucket = "bkttfv1mujahed"
+    bucket = "bkttfv1ashis"
     tags ={
-        Name="bkttfv1mujahed"
+        Name="bkttfv1ashis"
         Enviornment="Dev"
     }
 }
