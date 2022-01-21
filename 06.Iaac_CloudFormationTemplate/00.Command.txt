@@ -1,5 +1,8 @@
 aws cloudformation create-stack --stack-name stkcftcliashis --template-body file://01.S3BucketCreate.json
 
+aws cloudformation create-stack --stack-name stkcftcliashis --template-body file://02.FirewallCreate.json ^
+--parameters ParameterKey=SGName,ParameterValue=sgcftcliashis
+
 aws cloudformation delete-stack --stack-name stkcftcliashis
 
 Separataion of Command :
