@@ -1,4 +1,10 @@
 {
+    "Parameters": {
+        "SGName":{
+            "Description": "Enter Unique Ashis SG Name: ",
+            "Type": "String"
+        }
+    },
     "Resources":{
         "CreateFirewall":{
             "Type":"AWS::EC2::SecurityGroup",
