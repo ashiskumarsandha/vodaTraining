@@ -9,7 +9,7 @@
         "CreateFirewall":{
             "Type":"AWS::EC2::SecurityGroup",
             "Properties":{
-                "GroupName":"sgcftv1ashis",
+                "GroupName":{ "Ref":"SGName"},
                 "GroupDescription":"Allow http to client host",
                 "VpcId":"vpc-ff8f4594",
                 "SecurityGroupIngress":[

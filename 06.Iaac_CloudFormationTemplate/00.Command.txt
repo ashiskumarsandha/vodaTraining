@@ -1,0 +1,3 @@
+aws cloudformation create-stack --stack-name stkcftcliashis --template-body file://01.S3BucketCreate.json
+
+aws cloudformation delete-stack --stack-name stkcftcliashis
