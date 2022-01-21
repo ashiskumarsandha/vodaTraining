@@ -1,0 +1,10 @@
+{
+    "Resources": {
+        "CreateStorageSolution": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName":"bktcftv1ashis"
+            }
+        }
+    }
+}
